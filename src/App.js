@@ -2,16 +2,27 @@ import React, { Component } from 'react';
 
 class App extends Component {
 	render() {
-	return (
-		<div className="App">
-			<header className="App-header">
-				<h1 className="App-title">Welcome to React</h1>
-			</header>
-			<p className="App-intro">
-				To get started, edit <code>src/App.js</code> and save to reload.
-			</p>
-		</div>
-	);
+		return (
+			<div className="App">
+				--- LANDING ---
+				Simon Richards / SJR Designs
+
+				--- /LANDING --- 
+
+				--- IMPRESS ---
+				Intro text about me
+
+				Some of the companies i have worked with
+
+				ABBA
+				Barclays
+				BBC
+				Disney
+				Ubisoft
+				--- /IMPRESS --- 
+
+			</div>
+		);
 	}
 }
 
